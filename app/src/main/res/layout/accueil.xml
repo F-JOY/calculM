@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".classes.AccueilActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/_0220516_115935"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="clip_horizontal|center|clip_vertical"
+            android:layout_weight="1"
+            android:gravity="clip_horizontal|center|clip_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:layout_gravity="clip_horizontal|center|clip_vertical"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:gravity="top|left"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/ref"
+                    android:layout_width="59dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="clip_horizontal|center|clip_vertical"
+                    android:gravity="clip_horizontal|center|clip_vertical"
+
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:backgroundTint="#81817E"
+                    app:icon="@android:drawable/ic_popup_sync" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="clip_horizontal|center|clip_vertical"
+                android:layout_weight="1"
+                android:gravity="clip_horizontal|center|clip_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="174dp"
+                    android:layout_height="61dp"
+                    android:layout_gravity="clip_horizontal|center|clip_vertical"
+                    android:background="#EBFFEB3B"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="clip_horizontal|center|clip_vertical"
+                    android:text="CalCulM"
+                    android:textColor="#171414"
+                    android:textSize="30sp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_gravity="clip_horizontal|center|clip_vertical"
+                    android:layout_marginTop="15dp"
+                    android:gravity="clip_horizontal|center|clip_vertical"
+                    android:text="Moyenne semestrielle !"
+                    android:textColor="#000000"
+                    android:textSize="28sp"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="358dp"
+            android:layout_gravity="clip_horizontal|center|clip_vertical"
+            android:layout_weight="1"
+            android:gravity="clip_horizontal|center|clip_vertical"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/Mod"
+                android:layout_width="167dp"
+                android:layout_height="71dp"
+                android:layout_gravity="clip_horizontal|center|clip_vertical"
+                android:gravity="clip_horizontal|center|clip_vertical|right"
+
+                android:text="Démarrer"
+                android:textColor="#121111"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:backgroundTint="#DF81817E"
+                app:icon="@android:drawable/ic_media_ff"
+                app:iconGravity="textEnd"
+                app:iconPadding="8sp"
+                app:iconSize="30dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#050505"
+            android:text="B.Farah/A.Lidia"
+            android:textColor="#FFFDFD" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
