@@ -145,7 +145,7 @@
                     android:layout_weight="1"
                     android:ems="10"
                     android:gravity="clip_horizontal|center|clip_vertical"
-                    android:inputType="textPersonName" />
+                    android:inputType="number|numberDecimal" />
 
             </LinearLayout>
         </LinearLayout>

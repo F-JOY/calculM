@@ -143,7 +143,7 @@
                     android:ems="10"
                     android:gravity="clip_horizontal|center|clip_vertical"
                     android:hint="nouvelle note"
-                    android:inputType="textPersonName" />
+                    android:inputType="number|numberDecimal" />
 
             </LinearLayout>
 
@@ -182,7 +182,7 @@
                     android:ems="10"
                     android:gravity="clip_horizontal|center|clip_vertical|center_horizontal"
                     android:hint="nouvelle note"
-                    android:inputType="textPersonName" />
+                    android:inputType="number|numberDecimal" />
 
             </LinearLayout>
 
@@ -221,7 +221,7 @@
                     android:ems="10"
                     android:gravity="clip_horizontal|center|clip_vertical"
                     android:hint="nouvelle note"
-                    android:inputType="textPersonName" />
+                    android:inputType="number|numberDecimal" />
 
             </LinearLayout>
         </LinearLayout>
